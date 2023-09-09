@@ -4,8 +4,8 @@ import yuvisir from "../assest/yuvisir.jpg";
 import kavya from "../assest/kavss.jpg";
 import deepshi from "../assest/deep.jpg";
 import paras from "../assest/parass.jpg";
-// import ishank from "../assest/ishank.jpg";
-// import shikha from "../assest/shikhaa.jpg";
+import ishank from "../assest/ishank.jpg";
+import shikha from "../assest/shikhaa.jpg";
 
 
 const Moto = () => {
@@ -46,18 +46,18 @@ const Moto = () => {
             image: kavya,
             
           },
-          // {
-          //   name: "Mr. Ishank Gangwar",
-          //   country: "Team Member",
-          //   image: ishank,
-          //   //comment: "Team Member"
-          // },
-          // {
-          //   name: "Ms. Shikha Singh",
-          //   country: "Team Member",
-          //   image: shikha,
-          //   //comment: "Team Member",
-          // },
+          {
+            name: "Mr. Ishank Gangwar",
+            country: "Team Member",
+            image: ishank,
+            //comment: "Team Member"
+          },
+          {
+            name: "Ms. Shikha Singh",
+            country: "Team Member",
+            image: shikha,
+            //comment: "Team Member",
+          },
          
   ];
 
