@@ -1,0 +1,102 @@
+/* Contact.css */
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url('https://media.istockphoto.com/id/1359111625/photo/recyclable-shopping-bag-with-fruits-and-vegetables-with-supermarket-background.webp?b=1&s=170667a&w=0&k=20&c=1vXHmmfTnmbnJ3wyboeC_TLylzzwuHeEFzzD-0Rh4iI='); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .image-area {
+    flex: 1;
+    height: 100%;
+    background-image: url('./assest/font.jpeg');
+    background-size: cover;
+    background-position: center;}
+   */
+  .form-area {
+    flex: 1;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .title h1 {
+    font-size: 36px; /* Increase the font size for emphasis */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 20px;
+    color: #0b4200; /* Choose a suitable text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow for a 3D effect */
+  }
+
+  .contact-info h2 {
+    font-size: 18px;
+    color: #0b4200;
+    margin-bottom: 10px;
+  }
+  
+  .contact-address,
+  .contact-mail,
+  .contact-phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .fa-solid {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-address p,
+  .contact-mail p,
+  .contact-phone p {
+    margin: 0;
+  }
+  
+  .contact-form .input-area input,
+  .contact-form .message-area textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form .btn button {
+    /* background-color: #0b4200; */
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  
+  }
+
+  
+  .contact-form .btn button:hover {
+    background-color: #087e00;
+  }
+  
+  .title {
+    text-align: center;
+    color: green; /* Green color */
+    font-size: larger;
+    font:bolder;
+  }
+  
+  .title h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

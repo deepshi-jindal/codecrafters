@@ -1,0 +1,9 @@
+.login-container {
+    background-image: url("C:\Users\deeps\Desktop\website\website\frontend\src\assest\back.jpg"); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Adjust as needed */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }

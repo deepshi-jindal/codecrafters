@@ -1,0 +1,14 @@
+/* Signup.css */
+.custom-background {
+    background-image: url('../assest/back.jpg'); /* Replace with the actual path to your background image */
+    background-size: cover; /* Adjust the background size */
+    background-position: center;
+    display:flex;
+    width: 100vw; /* Set width to full viewport width */
+    height: 50vw; /* Set height to full viewport height */
+    background-attachment: fixed; /* Keep the background fixed */
+    box-sizing: border-box;
+  }
+  
+  /* Rest of your styles for the component */
+  

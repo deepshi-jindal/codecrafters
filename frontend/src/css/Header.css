@@ -1,0 +1,17 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 150px;
+  }
+  .arrow {
+    margin-bottom: 14px;
+  }

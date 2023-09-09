@@ -1,0 +1,92 @@
+.hot-deals {
+    height: 600px;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('C:/Users/deeps/Desktop/website/timer-bg.jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url('C:/Users/deeps/Desktop/website/timer-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('C:/Users/deeps/Desktop/website/timer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hot-deals .section-wrap {
+    padding: 2rem 8rem;
+}
+
+.hot-deals .hot-deals-title {
+    margin-top: 1.4rem;
+    width: 100%;
+}
+
+.hot-deals .hot-deals-title h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 1rem #111;
+}
+
+.hot-deals .countdown-wrap {
+    margin-top: 7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.countdown-wrap .timer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.countdown-wrap .timer .timer-bg {
+    height: 220px;
+    width: 220px;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(2rem);
+    backdrop-filter: blur(2rem);
+    border: 3px solid #fff;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--bd-radius-2);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.countdown-wrap .timer .counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.countdown-wrap .timer .counter h1 {
+    color: #fff;
+    font-size: 4.6rem;
+    text-align: center;
+}
+
+.countdown-wrap .timer .counter p {
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 500;
+}

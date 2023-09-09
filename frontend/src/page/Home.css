@@ -1,0 +1,41 @@
+/* Home.css */
+.home-section {
+  background-image: url("C:/Users/deeps/Desktop/website/hero-bg1.jpg"),url("C:/Users/deeps/Desktop/website/b.jpg"),url("C:/Users/deeps/Desktop/website/c4.jpeg");/* Replace with the actual path to your background image  */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-bottom: 2rem; /* Add some padding at the bottom to separate from the button */
+
+  animation: slideBackground 7s linear infinite;
+}
+@keyframes slideBackground {
+  100% {
+    background-position: 0 0,100% 0,200% 0;
+  }
+  100% {
+    background-position: 100% 0,200% 0, 300% 0;
+  }
+ 
+}
+
+.button-container {
+  display: flex;
+  /* justify-content: flex-end; */
+  padding-top: 2 rem; /* Add some padding at the top of the button container */
+  
+}
+.my-heading {
+  color: white; 
+  
+}
+
+.sd {
+  color: white; 
+  
+}
+.icon-container {
+  /* Add your CSS styles here */
+  margin-top: 10px; /* Example margin */
+  color: #ffffff; /* Example text color */
+}
+

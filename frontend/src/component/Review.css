@@ -1,0 +1,8 @@
+.review-content {
+    
+    transition: background-color 0.3s ease;
+  }
+
+  .review-content:hover {
+    background-color: #4CAF50; /* Change to your desired green color */
+  }
