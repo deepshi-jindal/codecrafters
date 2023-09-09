@@ -17,7 +17,7 @@ body {
     padding: 100px 0;
     color: #fbff00;
     animation: fadeIn 50s ease-in-out;
-    background-image: url('C:/Users/deeps/Desktop/website/hero-bg2.jpg');
+    background-image: url('../assest/hero-bg2.jpg');
     display:'flex';
     background-repeat: no-repeat;
     width:100%;
@@ -229,5 +229,5 @@ body {
   }
   
   .moto-container{
-    background-image: url('C:/Users/deeps/Desktop/website/website/frontend/src/assest/bg2.jpg');
+    background-image: url('../assest/bg2.jpg');
   }
