@@ -17,6 +17,7 @@ import { SiPaytm } from 'react-icons/si';
 import { FaApple } from 'react-icons/fa';
 import { FaGooglePay } from 'react-icons/fa';
 import { FaAmazonPay } from 'react-icons/fa';
+// / import Prediction from "../predict.py";
 
 const Prediction = () => {
   const [location, setLocation] = useState('');
@@ -114,6 +115,7 @@ const Prediction = () => {
               <ul className="predictions">
                 {predictions.map((prediction, index) => (
                   <li key={index}>{prediction}</li>
+              //  <Prediction/>
                 ))}
               </ul>
             </div>
