@@ -2,21 +2,17 @@ name: Build the code
 on:
   push:
     branches:
-      - main
+      - development
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:  
-          path: codecrafters
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      - name: Change directory to 'frontend'
-        run: cd codecrafters/frontend
       - name: Install dependencies
         run: npm install
       - name: Build website
