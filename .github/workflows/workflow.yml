@@ -13,6 +13,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
+      - name: Change directory to 'frontend'
+        run: cd frontend
       - name: Install dependencies
         run: npm install
       - name: Build website
